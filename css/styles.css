@@ -7,8 +7,9 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   letter-spacing: 0.5px;
+  color: #444;
 }
 
 .:focus {
