@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -28,10 +29,32 @@ body {
 }
 
 /* SITENAV */
-.site-header-action {
+.link-logo {
   display: flex;
   align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+}
+
+.link-logo:hover {
+  color:#de2e54;
+}
+
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-action {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo-img {
+  margin-right: 16px;
 }
 
 .sitenav-link {
@@ -92,6 +115,7 @@ ul {
 .site-social {
   justify-content: center;
   align-items: center;
+  color: #fff;
   font-size: 40px;
   line-height: 48px;
   font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
@@ -107,4 +131,16 @@ ul {
   border-radius: border-box;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.site-header-action-footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitenav-list-footer {
+  color: #fff;
 }
